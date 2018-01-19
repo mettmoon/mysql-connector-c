@@ -20,7 +20,7 @@
 
 #include "my_global.h"    /* C_MODE_START, C_MODE_END */
 #include "my_config.h"    /* HAVE_*_TIMERS */
-#include "mysql/psi/psi.h" /* PSI_thread_key, PSI_mutex_key, PSI_memory_key */
+#include "psi.h" /* PSI_thread_key, PSI_mutex_key, PSI_memory_key */
 
 /* POSIX timers API. */
 #ifdef HAVE_POSIX_TIMERS

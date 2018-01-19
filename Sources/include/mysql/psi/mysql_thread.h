@@ -54,7 +54,7 @@
   This causes complexity with '#ifdef'-ery that can't be avoided.
 */
 
-#include "mysql/psi/psi.h"
+#include "psi.h"
 
 #ifndef PSI_MUTEX_CALL
 #define PSI_MUTEX_CALL(M) PSI_DYNAMIC_CALL(M)

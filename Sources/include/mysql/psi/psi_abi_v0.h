@@ -20,5 +20,5 @@
   Do not include this file, include mysql/psi/psi.h instead.
 */
 #define MY_GLOBAL_INCLUDED
-#include "mysql/psi/psi.h"
+#include "psi.h"
 

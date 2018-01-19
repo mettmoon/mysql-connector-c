@@ -21,7 +21,7 @@
   Instrumentation helpers for statements.
 */
 
-#include "mysql/psi/psi.h"
+#include "psi.h"
 
 #ifndef PSI_STATEMENT_CALL
 #define PSI_STATEMENT_CALL(M) PSI_DYNAMIC_CALL(M)

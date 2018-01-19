@@ -1,4 +1,4 @@
-#include "mysql/psi/psi.h"
+#include "psi.h"
 #include "psi_base.h"
 #include "psi_memory.h"
 #include "psi_base.h"

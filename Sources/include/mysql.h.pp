@@ -178,7 +178,7 @@ extern LIST *list_reverse(LIST *root);
 extern void list_free(LIST *root,unsigned int free_data);
 extern unsigned int list_length(LIST *);
 extern int list_walk(LIST *,list_walk_action action,unsigned char * argument);
-#include "mysql/client_plugin.h"
+#include "client_plugin.h"
 struct st_mysql_client_plugin
 {
   int type; unsigned int interface_version; const char *name; const char *author; const char *desc; unsigned int version[3]; const char *license; void *mysql_api; int (*init)(char *, size_t, int, va_list); int (*deinit)(); int (*options)(const char *option, const void *);
