@@ -146,9 +146,9 @@ C_MODE_START
 	/* defines when allocating data */
 extern void *my_multi_malloc(PSI_memory_key key, myf flags, ...);
 
-#include <mysql/psi/psi.h>
-#include <mysql/service_mysql_alloc.h>
-#include <mysql/psi/mysql_memory.h>
+#include <psi.h>
+#include <service_mysql_alloc.h>
+#include <mysql_memory.h>
 
 /*
   Switch to my_malloc() if the memory block to be allocated is bigger than
@@ -913,7 +913,7 @@ void my_win_console_vfprintf(const CHARSET_INFO *cs, const char *fmt, va_list ar
 int my_win_translate_command_line_args(const CHARSET_INFO *cs, int *ac, char ***av);
 #endif /* _WIN32 */
 
-#include <mysql/psi/psi.h>
+#include <psi.h>
 
 #ifdef HAVE_PSI_INTERFACE
 extern MYSQL_PLUGIN_IMPORT struct PSI_bootstrap *PSI_hook;

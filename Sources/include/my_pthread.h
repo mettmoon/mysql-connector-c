@@ -225,7 +225,7 @@ extern void my_thread_end(void);
 #endif /* MYSQL_DYNAMIC_PLUGIN */
 #endif /* MYSQL_SERVER */
 
-#include <mysql/psi/mysql_thread.h>
+#include <mysql_thread.h>
 #include "my_thread_local.h"
 
 #ifdef  __cplusplus

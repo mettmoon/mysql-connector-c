@@ -22,8 +22,8 @@
 #define	vio_violite_h_
 
 #include <my_pthread.h> /* For pthread_t */
-#include <mysql/psi/psi.h>
-#include <mysql/psi/mysql_socket.h>
+#include <psi.h>
+#include <mysql_socket.h>
 
 /* Simple vio interface in C;  The functions are implemented in violite.c */
 
